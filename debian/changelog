@@ -1,0 +1,23 @@
+python-randomize (0.14-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https in Format
+  * Running wrap-and-sort -bast
+  * d/control: Add trailing tilde to min version depend to allow
+    backports
+  * d/control: Use team+openstack@tracker.debian.org as maintainer
+  * Use debhelper-compat instead of debian/compat.
+  * Use pybuild to build package.
+  * Bump debhelper compat level to 12.
+  * Bump standards version to 4.4.0 (no changes).
+  * Drop Python 2 support (Closes: #938120).
+  * Enable autopkgtest-pkg-python testsuite.
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 03 Sep 2019 10:53:01 +0200
+
+python-randomize (0.14-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #879563)
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 22 Oct 2017 22:30:25 +0200
